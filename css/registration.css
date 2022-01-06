@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d7cec7;
+    background-position:center;
+   background-size:cover;
+   font-family:sans-serif;
+   margin-top:0;
+}
+.regform{
+    width:800px;
+    background-color:#2f3e42;
+    margin-top: 80px;
+    margin-left: 360px;   
+    /*margin:auto;*/
+    color:#FFFFFF;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius:15px 15px 0px 0px;
+}
+.main{
+    width:800px;
+    background-color:#c09f80;
+    margin:auto;
+    margin-bottom: 120px;
+    border-radius: 0px 0px 15px 15px;
+}
+form{
+  padding:10px 10px 30px 10px;
+}
+#name{
+ width:100%;
+ height:100px;
+ }	     
+.name{
+ margin-left:25px;
+ margin-top:30px;
+ /* width:125px; */
+ color:white;
+ font-size:22px;
+ font-weight:700;
+ font-family: "arial";
+ }
+.firstname{
+       position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+}
+.lastname{
+       position:relative;
+       left:417px;
+       top:-80px;
+       line-height:40px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:#555;
+      }	  
+.firstlabel{
+       position:relative;
+       color:#E5E5E5;
+       text-transform:capitalize;
+       font-size:14px;
+       left:203px;
+       top:-45px;
+       }
+.lastlabel{
+       position:relative;
+       color:#E5E5E5;
+       text-transform:capitalize;
+       font-size:14px;
+       left:175px;
+       top:-45px;
+       }
+.college{
+       position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:490px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:#555;
+      }	  
+
+.blood_group{
+    position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:50px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:#555;
+}
+.email{
+       position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:490px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:rgb(233, 227, 227);
+      }	 
+.events{
+    position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:480px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:20px;
+       color:rgb(255, 247, 247);
+}
+.code{
+       position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:95px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:#555;
+      }	 
+.number{
+       position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:255px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:#555;
+      }	
+
+.date_of_birth{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+}      
+
+.area-code{
+       position:relative;
+       color:#E5E5E5;
+       text-transform:capitalize;
+       font-size:16px;
+       left:60px;
+       top:-4px;
+       }
+.phone-number{
+         position:relative;
+         color:#E5E5E5;
+         text-transform:capitalize;
+         font-size:16px;
+         left:-108px;
+         top:-2px;
+         } 
+.option{
+    position:relative;
+       left:200px;
+       top:-37px;
+       line-height:40px;
+       width:542px;
+       height:40px;
+       border-radius:6px;
+       padding:0 22px;
+       font-size:16px;
+       color:#011014;
+       outline:none;
+       overflow:hidden;
+      }	 	  		 
+.option option{
+               font-size:20px;
+               }
+#coustomer{
+      margin-left:25px;
+      color:white;
+      font-size:18px;
+      }
+
+#student{
+    margin-left: 25px;
+}
+.radio{
+  display:inline-block;
+  font-size:18px;
+  margin-left:25px;
+  margin-top:15px;
+  color:white;
+  position:relative;
+    left:150px;
+    top:-48px;
+    line-height:40px;
+    border-radius:6px;
+    padding:0 22px;
+ }
+.radio input{
+         width:20px;
+         height:18px;
+         cursor:pointer;
+         outline:none;
+}
+.register-button{
+  background-color:#96908c;
+  display:block;
+  margin:auto;
+  text-align:center;
+  border-radius:20px;
+  padding:14px 70px;
+  outline:none;
+  color:#242121;
+  cursor:pointer;
+  transition:0.25px;
+  font-size:25px;
+  font-family: sans-serif;
+  }	 
+.register-button:hover{
+     background-color:#76323F; 
+     color: #FFFFFF;
+ }
+ input[type="checkbox"]{
+    width: 18px; /*Desired width*/
+    height: 16px; /*Desired height*/
+  }

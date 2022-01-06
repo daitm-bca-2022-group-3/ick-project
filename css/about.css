@@ -1,0 +1,148 @@
+/* .banner{
+	width:80%;
+	height: 70%;
+	top: 15%;
+	left: 130px;
+	position: absolute;
+	color: #fff;
+}
+.app-text{
+	width: 50%;
+	float: left;
+}
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: -60px;
+	color: #000000;
+}
+.app-text p{
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px -60px;
+	line-height: 25px;
+	color: #000000;
+} */
+
+/* .quick-links{
+	left: 0;
+	bottom: -100;
+	position: absolute;
+	background: linear-gradient(to right, #db1bf6,#19d7f8);
+}
+.quick-links ul{
+	display: inline-flex;
+	margin: 30px auto;
+	text-align: centre;
+}
+.quick-links ul li{
+	list-style: none;
+	margin: 0 50px;
+	cursor: pointer;
+}
+.quick-links ul li .fa{
+	font-size: 25px;
+	color: #fff;
+} */
+
+/* Banner Styling */
+.banner {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-text {
+  /* width: 50%; */
+  padding-right: 10em;
+}
+
+.app-text p {
+  color: #777;
+}
+
+/* Slider styling */
+.slider {
+  margin-top: 5%;
+  width: 50%;
+  text-align: center;
+}
+
+.slider_image {
+  width: calc(275px * 1.5);
+  height: 274.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.slider_pagination {
+  letter-spacing: 0.5em;
+  font-size: 0.7em;
+  margin-top: -5%;
+}
+
+.caption {
+  padding: 1em 0.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.slider_arrow {
+  font-size: 1.1em;
+  border-radius: 100%;
+  user-select: none;
+  background-color: #977555;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.slider_arrow_left {
+  position: relative;
+  left: -43%;
+  top: -9em;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+
+.slider_arrow_right {
+  position: relative;
+  top: -9em;
+  left: 43%;
+  padding-right: 20px;
+  padding-left: 25px;
+}
+
+/* Quick links styling */
+.quick-links {
+  width: 70%;
+  max-width: 1000px;
+  margin: 5em auto;
+  background: linear-gradient(to right, #76323f, #977555);
+  padding: 0.8em 0;
+}
+
+.quick-links ul {
+	text-align: center;
+  display: flex;
+}
+
+.quick-links ul li{
+	list-style: none;
+	margin: 0 50px;
+  display: flex;
+  align-items: center;
+	cursor: pointer;
+  font-size: 0.8em;
+  color: white;
+}
+.quick-links ul li i{
+	font-size: 2em;
+  margin-right: 1em;
+	color: #fff;
+}

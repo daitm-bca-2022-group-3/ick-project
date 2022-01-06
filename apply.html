@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form | Imperial College of Kolkata</title>
+  <link rel="stylesheet" href="/css/apply.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+  <ick-header 
+    logo-path="./img/logo.png" 
+    style-path="./components/ick-header/index.css" 
+    active="#"
+  >
+  </ick-header>
+  <script src="./components/ick-header/index.js"></script>
+  <div class="regform">
+    <h1>Application Form</h1>
+  </div>
+  <div class="main">
+    <form action="">
+      <div id="name">
+        <h2 class="name">Name</h2>
+        <input type="text" class="firstname" name="first_name"><br>
+        <label class="firstlabel">first name</label>
+        <input type="text" class="lastname" name="last_name">
+        <label class="lastlabel">last name</label>
+      </div>
+      <h2 class="name">Gender</h2>
+      <div class="radio">
+        <input type="radio" id="Male" name="Gender" value="Male" checked>
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="Other">Other</label>
+      </div>
+
+      <h2 class="name">Date of Birth</h2>
+      <input type="date" id="date_of_birth" class="date_of_birth" name="trip-start" value="2018-07-22" min="1994-01-01"
+        max="2020-12-31">
+
+      <h2 class="name">Blood Group</h2>
+      <input type="text" class="blood_group" name="blood_group">
+
+
+      <h2 class="name">Nationality</h2>
+      <input type="text" class="nationality" name="nationality">
+
+      <h2 class="name">Adress</h2>
+      <input type="text" class="adress" name="adress">
+
+      <h2 class="name">State</h2>
+      <input type="text" class="state" name="state">
+
+      <h2 class="name">City</h2>
+      <input type="text" class="city" name="city">
+
+
+
+      <h2 class="name">Email</h2>
+      <input type="text" class="email" name="email" type="email" pattern=".+@globex\.com" size="30" required>
+
+
+      <h2 class="name">Phone</h2>
+      <input type="text" class="code" name="area_code">
+      <label class="area-code">Area Code</label>
+      <input type="text" class="number" name="phone">
+      <label class="phone-number">Phone Number</label>
+
+      <h2 class="name">Department</h2>
+      <select name="Department" class="option">
+        <option disabled="disabled" selected="selected">--Choose Option--</option>
+        <option>Bachelor of Computer Application</option>
+        <option>Bachelor of Business Administration</option>
+        <option>Bachelor of Business Administration in Hospital Management</option>
+        <option>Bachelor of Science</option>
+        <option>Bachelor of Arts</option>
+        <option>Master of Science</option>
+        <option>Master of Computer Application</option>
+        <option>Master of Business Administration</option>
+      </select>
+
+      <h2 class="name">Hobby</h2>
+      <input type="text" class="hobby" name="hobby">
+
+
+      <button class="register-button" type="submit">Register</button>
+    </form>
+  </div>
+
+  <ick-footer 
+		style-path="./components/ick-footer/index.css"
+	>
+	</ick-footer>
+	<script src="./components/ick-footer/index.js"></script>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
