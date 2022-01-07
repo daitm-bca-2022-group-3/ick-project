@@ -156,13 +156,13 @@ marquee {
   list-style: none;
 }
 
-@media(max-width:700px)
+/*@media(max-width:700px)
 {
 	.row
 	{
 		flex-direction:column;
 	}
-}
+}*/
 
 .campus {
   width: 80%;
@@ -195,13 +195,13 @@ marquee {
 }
 
 .layer:hover {
-  background: rgba(151,117,85,0.7);
+  background: rgba(192,159,128,0.7);
 }
 
 .layer h3 {
   width: 100%;
   font-weight: 500;
-  color: #fff;
+  color: #000;
   font-size: 26px;
   bottom: 0;
   left: 50%;
