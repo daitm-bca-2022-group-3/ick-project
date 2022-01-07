@@ -50,6 +50,13 @@ class ICKFooter extends HTMLElement {
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
               </div>
+              <br />
+              <a target="_blank" href=" https://vercel.com/?utm_source=daitm-bca-2022-group-3&utm_campaign=oss">
+                <img 
+                  src="./img/vercel.svg" 
+                  alt="powered by vercel"
+                />
+              </a>
             </div>
           </div>
         </div>
