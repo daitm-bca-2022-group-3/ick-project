@@ -195,7 +195,7 @@ marquee {
 }
 
 .layer:hover {
-  background: #c09f80;
+  background: rgba(192,159,128,0.7);
 }
 
 .layer h3 {
