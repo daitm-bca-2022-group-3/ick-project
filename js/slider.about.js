@@ -3,7 +3,7 @@ import createSlider from './slider.js';
 const sliderContent = [
   {
     path: './img/about/1.jpg',
-    caption: 'ICK Institue'
+    caption: 'ICK Institute'
   }, 
   {
     path: './img/about/2.jpg',
@@ -19,7 +19,7 @@ const sliderContent = [
   },
   {
     path: './img/about/5.jpg',
-    caption: 'Inversitrue Ceremony'
+    caption: 'Investiture Ceremony'
   },
   {
     path: './img/about/6.jpg',
@@ -27,7 +27,7 @@ const sliderContent = [
   },
   {
     path: './img/about/7.jpg',
-    caption: 'Mediacal Lab'
+    caption: 'Medical Lab'
   },
   {
     path: './img/about/8.jpg',
