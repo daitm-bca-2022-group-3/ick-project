@@ -140,8 +140,6 @@ List the software(s) that team has used in this project
 # **4User Interface**
 
 | **UI (Screen Shot)** | **Description** |
-| --- | --- |
-| ![](RackMultipart20220108-4-lq9qf1_html_9197b91e5fa104b2.jpg) |
 
 - This is the home page of our website.
 - This page contains all the information about the college.
@@ -335,7 +333,5 @@ List the software(s) that team has used in this project
 | **RAHUL SHARMA** | **Others/Tester** |
 
 <br />
-
-![Powered By Vercel](./img/vercel.svg)
 
 Page 24 of 24
