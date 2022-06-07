@@ -22,9 +22,9 @@ class ICKHeader extends HTMLElement {
         <img class="logo" src="${this.getAttribute('logo-path')}" alt="logo" />
         <nav>
           <ul class="nav_links">
-            <li><a href="/" ${active === 'home' ? 'class="selected"' : ''}>HOME</li>
-            <li><a href="/event.html" ${active === 'event' ? 'class="selected"' : ''}>EVENT</li>
-            <li><a href="/about.html" ${active === 'about' ? 'class="selected"' : ''}>ABOUT<li>
+            <li><a href="./" ${active === 'home' ? 'class="selected"' : ''}>HOME</li>
+            <li><a href="./event.html" ${active === 'event' ? 'class="selected"' : ''}>EVENT</li>
+            <li><a href="./about.html" ${active === 'about' ? 'class="selected"' : ''}>ABOUT<li>
             </ul>	
         </nav>
         <a class="cta" href="/login.html"><button class="header-button">LOGIN</a>

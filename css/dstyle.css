@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+	margin:0; 
+	padding:0; 
+	box-sizzing:border-box;
+	font-family:arial; 
+}
+
+.main-div
+{
+	width:205%;
+	height:160vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.center-div
+{
+	width:103%;
+	height:140vh;
+	background:-webkit-linear-gradient(left, #5DADE2, #00c6ff);
+	padding:20px 0 0 0;
+	box-shadow:0 10px 20px 0 rgba(0,0,0,.03);
+	border-radius:10px;
+}
+
+h1
+{
+	font-size:30px;
+	color:#000;
+	text-align:center;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+table
+{
+	/*border-spacing:5;*/
+	border-collapse:collapse;
+	background-color:#fff;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+	border-radius:10px;
+	margin:auto;
+}
+
+th,td
+{
+	border:2px solid #f2f2f2;
+	padding: 8px 30px;
+	text-align:center;
+	color:black;	
+}
+
+th
+{
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:500;
+}
+
+td
+{
+	font-size: 15px;
+}
+
+.email-style
+{
+	font-size:15px;
+	color:black;
+	display:inline-block;
+	background: #f2f2f2;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	line-height:30px;
+	padding:0 14px;
+}
+
+.post-class
+{
+	text-transform:uppercase;
+}
+</style>
+</head>
+</html>
